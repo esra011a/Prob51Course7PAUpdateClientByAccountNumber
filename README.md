@@ -57,21 +57,6 @@ A101#//#1234#//#Esraa Alharbi#//#0551234567#//#5000.75
 | `UpdateClientByAccountNumber()` | Coordinates the entire update process. |
 
 ---
-
-## 🧠 Data Structure
-
-The `sClient` struct stores each client's information:
-```cpp
-struct sClient {
-    string AccountNumber;
-    string PinCode;
-    string Name;
-    string Phone;
-    double AccountBalance;
-    bool MarkForDelete = false;
-};
----
-
 ##Example Run
 
 Please enter account Number?
@@ -93,9 +78,44 @@ Enter AccountBalance? 5200.50
 
 Client Updated Successfully
 
-##👩‍💻 Author
+## 🧠 Data Structure
+
+The `sClient` struct stores each client's information:
+```cpp
+struct sClient {
+    string AccountNumber;
+    string PinCode;
+    string Name;
+    string Phone;
+    double AccountBalance;
+    bool MarkForDelete = false;
+};
+```
+
+##Example Run
+```cpp
+Please enter account Number?
+A101
+The following are the Client details
+
+Account Number: A101
+PinCode       : 1234
+Name          : Esraa Alharbi
+Phone         : 0551234567
+Account Balance: 5000.75
+
+Are you sure you want to update this Client? y/n ? y
+
+Enter PinCode? 5678
+Enter Name? Esraa F. Alharbi
+Enter Phone? 0550001111
+Enter AccountBalance? 5200.50
+
+Client Updated Successfully
+```
+👩‍💻 Author
 
 Esraa Fahad Alharbi
-📍 Al-Madinah, Saudi Arabia
 🎓 B.Sc. in Computer Science – Taibah University
 💡 Passionate about web development, and software engineering.
+
