@@ -1,0 +1,4 @@
+﻿  Prob51Course7PAUpdateClientByAccountNumber.cpp
+C:\Users\96655\Downloads\VS projects\Prob51Course7PAUpdateClientByAccountNumber\Prob51Course7PAUpdateClientByAccountNumber.cpp(21,33): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\96655\Downloads\VS projects\Prob51Course7PAUpdateClientByAccountNumber\Prob51Course7PAUpdateClientByAccountNumber.cpp(229): warning C4715: 'UpdateClientByAccountNumber': not all control paths return a value
+  Prob51Course7PAUpdateClientByAccountNumber.vcxproj -> C:\Users\96655\Downloads\VS projects\Prob51Course7PAUpdateClientByAccountNumber\x64\Debug\Prob51Course7PAUpdateClientByAccountNumber.exe
